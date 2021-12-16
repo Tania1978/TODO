@@ -1,0 +1,33 @@
+#btn{
+    background-color: cornflowerblue;
+    border-radius: 4px;
+    color:white
+}
+
+#formdiv, #btndiv, #uldiv{
+    width: 30%;
+    margin:auto;
+}
+
+#uldiv li{
+    display:block;
+    width:250px;
+    color:white;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+
+li:nth-child(odd) {
+    background-color: indianred;
+}
+li:nth-child(even) {
+    background-color: cornflowerblue;
+}
+
+#delete {
+    float: right;
+    background-color: cornsilk;
+    color:cornflowerblue;
+    border:1px solid gray;
+    border-radius: 4px;
+}
