@@ -1,24 +1,59 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+#todoinput{
+height:20px;
+border-radius: 4px;
+border:2px solid gray;
+}
+
+#formbtndiv{
+    display:flex;
+    flex-wrap: nowrap;
+    margin-left: 30px;
+}
+
+#formdiv, #btndiv{
+    margin: 10px;
+
+}
+
+#formdiv{
+    display:flex;
+    flex-direction: column;
+}
+
+#label, #todoinput {
+    display:block;
+}
 #btn{
     background-color: cornflowerblue;
     border-radius: 4px;
-    color:white
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    width:120px;
+    margin-top: 20px;
 }
 
-#formdiv, #btndiv, #uldiv{
-    width: 30%;
-    margin:auto;
-}
 
 #uldiv li{
     display:block;
-    width:250px;
+    padding: 5px;
+    width:310px;
+    height: 30px;
     color:white;
     border: 2px solid gray;
     border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
 
 li:nth-child(odd) {
-    background-color: indianred;
+    background-color:slategray;
 }
 li:nth-child(even) {
     background-color: cornflowerblue;
@@ -26,8 +61,10 @@ li:nth-child(even) {
 
 #delete {
     float: right;
-    background-color: cornsilk;
+    background-color:snow;
     color:cornflowerblue;
     border:1px solid gray;
     border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
 }
